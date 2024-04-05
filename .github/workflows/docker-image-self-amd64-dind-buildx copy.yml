@@ -1,5 +1,5 @@
-name: Build, self, buildx
-run-name: Build, self, buildx
+name: Build, self (amd64, dind), buildx 2
+run-name: Build, self (amd64, dind), buildx 2
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: set-linux-arm64-dind
+    runs-on: set-linux-amd64-dind
     permissions: write-all
     timeout-minutes: 120
 
