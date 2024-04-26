@@ -1,2 +1,2 @@
 FROM alpine
-CMD sleep 60 && echo "Hello World~"
+CMD sleep 300 && echo "Hello World~"
